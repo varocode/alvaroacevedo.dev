@@ -1,7 +1,7 @@
 ---
 title: "Empiezo este blog — voy a construir con .NET y IA en público"
 pubDatetime: 2026-05-04T20:00:00-05:00
-description: "Por qué arranco este blog, qué voy a construir, y por qué te puede servir si te dedicás a backend en .NET y querés meterte en serio con IA aplicada."
+description: "Por qué arranco este blog, qué voy a construir, y por qué te puede servir si te dedicas a backend en .NET y quieres meterte en serio con IA aplicada."
 featured: true
 tags:
   - build-in-public
@@ -19,13 +19,13 @@ Llevo tiempo trabajando con .NET y, como muchos backend developers, me apasiona 
 
 Quiero ser parte de los que llenan ese hueco.
 
-## Qué vas a leer acá
+## Qué vas a leer aquí
 
 Voy a publicar contenido práctico, no teoría:
 
-- **MCP servers en C#** — cómo construirlos paso a paso, conectarlos a Claude / Cursor / VS Code, casos de uso reales que se pueden vender o open-sourcear.
+- **MCP servers en C#** — cómo construirlos paso a paso, conectarlos a Claude / Cursor / VS Code, casos de uso reales que se pueden vender o liberar como open source.
 - **Agents con Semantic Kernel** — el framework oficial de Microsoft, alternativa real a LangChain.
-- **RAG en producción con .NET** — embeddings, vector databases (pgvector, Qdrant), hybrid search, y todos los problemas que aparecen cuando salís del POC.
+- **RAG en producción con .NET** — embeddings, vector databases (pgvector, Qdrant), hybrid search, y todos los problemas que aparecen cuando sales del POC.
 - **Integraciones de Claude / OpenAI** desde WebAPIs en C# con autenticación, rate limiting, manejo de errores, observabilidad.
 - **Patrones de arquitectura** modernos aplicados a sistemas con IA: clean / hexagonal / screaming architecture.
 
@@ -35,12 +35,12 @@ Cada artículo va a tener su código en GitHub, sus errores honestos, lo que cos
 
 Construyo en público. No es marketing, es disciplina.
 
-Cuando tenés que mostrar el código y el resultado, no podés esconder los atajos ni las cosas que no entendés. Eso me obliga a aprender mejor — y a vos te sirve porque ves cómo se piensa un problema real, no la versión idealizada que aparece en los tutoriales.
+Cuando tienes que mostrar el código y el resultado, no puedes esconder los atajos ni las cosas que no entiendes. Eso me obliga a aprender mejor — y a ti te sirve porque ves cómo se piensa un problema real, no la versión idealizada que aparece en los tutoriales.
 
 ## Qué viene
 
 En las próximas semanas voy a publicar el primer MCP server construido en C# con su código, su artículo y el video de cómo lo armé. Después el segundo. Después el tercero. La idea es ser consistente más que perfecto.
 
-Si te interesa el cruce entre **.NET + IA + arquitectura backend**, suscribite al RSS o seguíme en [GitHub](https://github.com/varocode). Y si tenés dudas, sugerencias de temas, o simplemente querés charlar de esto, escribime a [alvaroacevedo83@gmail.com](mailto:alvaroacevedo83@gmail.com).
+Si te interesa el cruce entre **.NET + IA + arquitectura backend**, suscríbete al RSS o sígueme en [GitHub](https://github.com/varocode). Y si tienes dudas, sugerencias de temas, o simplemente quieres conversar de esto, escríbeme a [alvaroacevedo83@gmail.com](mailto:alvaroacevedo83@gmail.com).
 
 Nos leemos.

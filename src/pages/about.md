@@ -7,13 +7,13 @@ title: "Sobre mí"
 
 Hace tiempo que me apasiona construir cosas con IA, y este blog es donde voy a compartir todo lo que vaya haciendo en ese cruce: **backend moderno con .NET + inteligencia artificial aplicada**.
 
-## Sobre qué vas a leer acá
+## Sobre qué vas a leer aquí
 
 Voy a publicar contenido práctico, no teoría:
 
 - **MCP servers en C#** — cómo construirlos, cómo conectarlos a Claude / Cursor / VS Code, casos reales.
 - **Agents con Semantic Kernel y Microsoft.Extensions.AI** — el ecosistema oficial de Microsoft para integrar LLMs en .NET.
-- **RAG en producción con .NET** — embeddings, vector databases, hybrid search, todo lo que rompe cuando pasás del POC al deploy real.
+- **RAG en producción con .NET** — embeddings, vector databases, hybrid search, todo lo que se rompe cuando pasas del POC al deploy real.
 - **Integraciones con Claude y OpenAI** desde WebAPIs en C#.
 - **Patrones de arquitectura backend** modernos: clean architecture, hexagonal, screaming architecture aplicados a sistemas con IA.
 
@@ -21,8 +21,8 @@ Voy a publicar contenido práctico, no teoría:
 
 Porque me gusta más enseñar lo que aprendo que pretender saberlo todo. Cada artículo es algo que construí, con su código en GitHub, sus errores, sus prompts, lo que costó en API y lo que me sorprendió en el camino.
 
-Si te sirve, tomalo. Si tenés mejor forma de hacerlo, escribime — siempre estoy aprendiendo.
+Si te sirve, tómalo. Si tienes mejor forma de hacerlo, escríbeme — siempre estoy aprendiendo.
 
-## Conectá
+## Conecta
 
-Estoy en [GitHub como `varocode`](https://github.com/varocode) y mi mail es [alvaroacevedo83@gmail.com](mailto:alvaroacevedo83@gmail.com). Si querés colaborar, sugerir un tema, o simplemente charlar de .NET + IA, escribime.
+Estoy en [GitHub como `varocode`](https://github.com/varocode) y mi correo es [alvaroacevedo83@gmail.com](mailto:alvaroacevedo83@gmail.com). Si quieres colaborar, sugerir un tema, o simplemente conversar de .NET + IA, escríbeme.
