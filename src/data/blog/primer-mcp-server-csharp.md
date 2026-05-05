@@ -1,6 +1,6 @@
 ---
 title: "Construí mi primer MCP server en C# y otra IA encontró un bug que mis tests ocultaron"
-pubDatetime: 2026-05-05T20:00:00-05:00
+pubDatetime: 2026-05-05T18:00:00-05:00
 description: "Cómo construí mi primer MCP server en .NET 10 para buscar en docs de Microsoft Learn, qué decisiones de arquitectura tomé, y cómo un code review honesto de otra IA me hizo encontrar un bug crítico que mis tests no detectaban."
 featured: true
 tags:
