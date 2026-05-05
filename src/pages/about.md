@@ -1,37 +1,28 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Sobre mí"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+¡Hola! Soy **Alvaro Acevedo**, backend developer enfocado en C# y .NET.
 
-![Astro Paper](public/astropaper-og.jpg)
+Hace tiempo que me apasiona construir cosas con IA, y este blog es donde voy a compartir todo lo que vaya haciendo en ese cruce: **backend moderno con .NET + inteligencia artificial aplicada**.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+## Sobre qué vas a leer acá
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+Voy a publicar contenido práctico, no teoría:
 
-## Features
+- **MCP servers en C#** — cómo construirlos, cómo conectarlos a Claude / Cursor / VS Code, casos reales.
+- **Agents con Semantic Kernel y Microsoft.Extensions.AI** — el ecosistema oficial de Microsoft para integrar LLMs en .NET.
+- **RAG en producción con .NET** — embeddings, vector databases, hybrid search, todo lo que rompe cuando pasás del POC al deploy real.
+- **Integraciones con Claude y OpenAI** desde WebAPIs en C#.
+- **Patrones de arquitectura backend** modernos: clean architecture, hexagonal, screaming architecture aplicados a sistemas con IA.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+## Por qué construir en público
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+Porque me gusta más enseñar lo que aprendo que pretender saberlo todo. Cada artículo es algo que construí, con su código en GitHub, sus errores, sus prompts, lo que costó en API y lo que me sorprendió en el camino.
 
-and so much more.
+Si te sirve, tomalo. Si tenés mejor forma de hacerlo, escribime — siempre estoy aprendiendo.
 
-## Show your support
+## Conectá
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Estoy en [GitHub como `varocode`](https://github.com/varocode) y mi mail es [alvaroacevedo83@gmail.com](mailto:alvaroacevedo83@gmail.com). Si querés colaborar, sugerir un tema, o simplemente charlar de .NET + IA, escribime.
