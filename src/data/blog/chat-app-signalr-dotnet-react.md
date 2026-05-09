@@ -1,6 +1,6 @@
 ---
 title: "Construí un chat en tiempo real con SignalR, .NET 8 y React — cómo funciona por dentro"
-pubDatetime: 2026-05-09T18:00:00-05:00
+pubDatetime: 2026-05-09T08:00:00-05:00
 description: "Construí un chat estilo Discord con SignalR, ASP.NET Core 8, React y PostgreSQL. Comparto la arquitectura real, el ChatHub, cómo autentiqué el WebSocket con JWT y el bug de closures que casi me come."
 featured: true
 tags:
