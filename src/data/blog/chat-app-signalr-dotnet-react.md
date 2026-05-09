@@ -2,6 +2,7 @@
 title: "Construí un chat en tiempo real con SignalR, .NET 8 y React — cómo funciona por dentro"
 pubDatetime: 2026-05-09T08:00:00-05:00
 description: "Construí un chat estilo Discord con SignalR, ASP.NET Core 8, React y PostgreSQL. Comparto la arquitectura real, el ChatHub, cómo autentiqué el WebSocket con JWT y el bug de closures que casi me come."
+ogImage: "/assets/posts/chat-app/chat-active.png"
 featured: true
 tags:
   - dotnet
@@ -19,6 +20,8 @@ Tener una pestaña abierta y ver aparecer mensajes nuevos sin recargar nada es d
 Construí **ChatApp**: un chat en tiempo real, estilo Discord, con canales públicos, panel de usuarios online y mensajes que aparecen al instante. Backend en **ASP.NET Core 8 + SignalR**, frontend en **React 18 + Vite**, persistencia en **PostgreSQL** y autenticación con **JWT + BCrypt**. El código está completo en [github.com/varocode/ChatApp](https://github.com/varocode/ChatApp).
 
 No es un experimento ni un POC: es una pieza completa que ejercita los patrones que aparecen en cualquier sistema con conexiones persistentes — broadcast a grupos, autenticación sobre WebSocket, manejo de estado en el cliente, y closures de React que muerden si no las cuidas.
+
+![Chat activo en ChatApp con dos usuarios conversando en el canal #general, con panel de usuarios online a la derecha](/assets/posts/chat-app/chat-active.png)
 
 ## Qué quería resolver
 
@@ -64,6 +67,8 @@ Cuando un usuario manda un mensaje:
 4. Cada cliente suscrito a ese canal recibe el `ReceiveMessage` y lo agrega al estado local.
 
 Lo importante: **el remitente también recibe el evento**, no se hace optimistic update. Una sola fuente de verdad: lo que el servidor confirma. Más simple, menos bugs de "el mensaje aparece dos veces".
+
+![Estado vacío del canal #general en ChatApp, mostrando el sidebar de canales, la cabecera del canal y el mensaje de bienvenida](/assets/posts/chat-app/channel-empty.png)
 
 ## El núcleo: ChatHub.cs
 
