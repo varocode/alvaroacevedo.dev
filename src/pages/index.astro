@@ -42,16 +42,23 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-        Backend developer en C# / .NET con foco en construir con IA: MCP
-        servers, agents con Semantic Kernel, RAG en producción, integraciones
-        con Claude y OpenAI desde APIs en .NET, y patrones de arquitectura
-        backend modernos.
+        Escribo sobre backend .NET e IA aplicada para equipos que necesitan
+        llevar ideas a producción: MCP servers en C#, agentes con Semantic
+        Kernel, RAG con criterios reales, integraciones con Claude/OpenAI y
+        arquitectura backend preparada para ir más allá de una demo.
       </p>
       <p class="mt-2">
-        Aquí comparto todo lo que voy construyendo en público — el código, lo
-        que funciona, lo que rompe, y lo que aprendo en el camino. En español,
-        sin humo.
+        Aquí comparto lo que construyo en público: el código, lo que funciona,
+        lo que falla y lo que aprendo en el camino. En español, sin promesas
+        vacías.
       </p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <LinkButton href="/empieza-aqui/">
+          Empieza aquí
+          <IconArrowRight class="inline-block rtl:-rotate-180" />
+        </LinkButton>
+        <LinkButton href="/servicios/">Servicios para equipos .NET</LinkButton>
+      </div>
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (

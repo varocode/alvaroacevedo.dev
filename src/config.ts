@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://alvaroacevedo.dev/",
   author: "Alvaro Acevedo",
   profile: "https://alvaroacevedo.dev/",
-  desc: "Backend .NET + IA aplicada, en español. Construyo en público.",
+  desc: "Backend .NET e IA aplicada en español: MCP servers en C#, agentes con Semantic Kernel, RAG en producción e integraciones con Claude y OpenAI.",
   title: "Alvaro Acevedo",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,

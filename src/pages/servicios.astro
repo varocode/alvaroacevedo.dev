@@ -1,0 +1,58 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Main from "@/layouts/Main.astro";
+import LinkButton from "@/components/LinkButton.astro";
+import { SITE } from "@/config";
+
+const title = `Servicios | ${SITE.title}`;
+const description =
+  "Ayuda para equipos .NET que quieren integrar IA aplicada: RAG, agentes, MCP servers, Claude/OpenAI y arquitectura backend de producción.";
+---
+
+<Layout {title} {description}>
+  <Header />
+  <Main
+    pageTitle="Servicios"
+    pageDesc="Ayudo a equipos .NET a integrar IA aplicada sin convertir el sistema en una demo frágil."
+  >
+    <section class="app-prose max-w-app">
+      <p>
+        Trabajo con equipos que ya tienen backend en .NET — o están por
+        construirlo — y necesitan llevar IA aplicada a un producto real: con
+        criterios técnicos, límites claros y arquitectura mantenible.
+      </p>
+
+      <h2>En qué puedo ayudar</h2>
+      <ul>
+        <li>Diseño e implementación de RAG para productos .NET.</li>
+        <li>Agentes con Semantic Kernel y Microsoft.Extensions.AI.</li>
+        <li>MCP servers en C# para conectar herramientas, datos y asistentes.</li>
+        <li>Integraciones backend con Claude, OpenAI y modelos compatibles.</li>
+        <li>Revisión de arquitectura para APIs, workers y sistemas con IA.</li>
+      </ul>
+
+      <h2>Cómo trabajo</h2>
+      <p>
+        Primero entendemos el problema y los datos. Después definimos una
+        solución mínima que se pueda probar, medir y mantener. No vendo humo:
+        si un flujo no necesita agentes, no lo fuerzo; si RAG no aporta valor,
+        lo digo.
+      </p>
+
+      <h2>Hablemos</h2>
+      <p>
+        Si tu equipo está evaluando IA aplicada en .NET o necesita revisar una
+        arquitectura existente, escríbeme con contexto del producto, stack y
+        objetivo técnico.
+      </p>
+      <p>
+        <LinkButton href="mailto:alvaroacevedo83@gmail.com?subject=Servicios%20.NET%20%2B%20IA">
+          Escribirme por email
+        </LinkButton>
+      </p>
+    </section>
+  </Main>
+  <Footer />
+</Layout>

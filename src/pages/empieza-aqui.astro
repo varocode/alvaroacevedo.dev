@@ -1,0 +1,65 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Main from "@/layouts/Main.astro";
+import { SITE } from "@/config";
+
+const title = `Empieza aquí | ${SITE.title}`;
+const description =
+  "Una guía para leer el blog de Alvaro Acevedo según tu objetivo: MCP en C#, agentes con Semantic Kernel, RAG en producción o arquitectura backend .NET.";
+---
+
+<Layout {title} {description}>
+  <Header />
+  <Main
+    pageTitle="Empieza aquí"
+    pageDesc="Si llegaste por .NET + IA aplicada, este es el mapa para leer sin perderte."
+  >
+    <section class="app-prose max-w-app">
+      <p>
+        Este blog está pensado para personas que construyen backend y quieren
+        aplicar IA sin quedarse en la demo. Elige el camino que más se parezca a
+        tu problema actual.
+      </p>
+
+      <h2>Si quieres empezar por MCP en C#</h2>
+      <p>
+        Empieza con el primer servidor MCP: decisiones mínimas, cómo exponer
+        tools y qué detalles importan cuando el usuario de tu API también es un
+        LLM.
+      </p>
+      <p>
+        <a href="/posts/primer-mcp-server-csharp/">Leer sobre MCP en C#</a>
+      </p>
+
+      <h2>Si quieres arquitectura backend real</h2>
+      <p>
+        Revisa los proyectos fullstack y backend donde aparecen decisiones que
+        sí pesan en producción: autenticación, modelado, Result pattern,
+        SignalR, PostgreSQL y límites entre capas.
+      </p>
+      <ul>
+        <li>
+          <a href="/posts/inventory-api-dotnet-react/">
+            API de inventario con ASP.NET Core y React
+          </a>
+        </li>
+        <li>
+          <a href="/posts/chat-app-signalr-dotnet-react/">
+            Chat con SignalR, ASP.NET Core y React
+          </a>
+        </li>
+      </ul>
+
+      <h2>Si estás explorando RAG, agentes o integraciones</h2>
+      <p>
+        Ese es el foco hacia adelante: RAG de producción, agents con Semantic
+        Kernel, Microsoft.Extensions.AI e integraciones con Claude/OpenAI desde
+        APIs .NET. Usa los tags para seguir esas líneas a medida que crezcan.
+      </p>
+      <p><a href="/tags/">Explorar por tags</a></p>
+    </section>
+  </Main>
+  <Footer />
+</Layout>
